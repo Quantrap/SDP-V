@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="24cd218998ec4249bbc38e16be63389f" Name="Diagram1">
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Characteristics" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Customers_FL_" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Customers_UL_" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Delivery" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Drivers" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Order_F" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Orders" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Production" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Users" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Orders_Characteristics" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Orders_Customers_FL_" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Orders_Customers_UL_" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Delivery_Drivers" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Delivery_Order_F" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Order_F_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SDPV_ProjectModel.FK_Order_F_Production" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
