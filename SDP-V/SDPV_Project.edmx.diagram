@@ -7,7 +7,7 @@
       <Diagram DiagramId="24cd218998ec4249bbc38e16be63389f" Name="Diagram1">
         <EntityTypeShape EntityType="SDPV_ProjectModel.Characteristics" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="SDPV_ProjectModel.Customers_FL_" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SDPV_ProjectModel.Customers_UL_" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDPV_ProjectModel.Customers_UL_" Width="1.5" PointX="10.875" PointY="2.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SDPV_ProjectModel.Delivery" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SDPV_ProjectModel.Drivers" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SDPV_ProjectModel.Order_F" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />

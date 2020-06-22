@@ -129,38 +129,45 @@
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.Green;
+            this.buttonAdd.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonAdd.Location = new System.Drawing.Point(636, 12);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(97, 45);
             this.buttonAdd.TabIndex = 7;
             this.buttonAdd.Text = "Создать";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
+            this.buttonEdit.BackColor = System.Drawing.Color.Green;
+            this.buttonEdit.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonEdit.Location = new System.Drawing.Point(636, 63);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(97, 45);
             this.buttonEdit.TabIndex = 8;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
+            this.buttonDel.BackColor = System.Drawing.Color.Green;
+            this.buttonDel.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonDel.Location = new System.Drawing.Point(636, 114);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(97, 45);
             this.buttonDel.TabIndex = 9;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // FormPersons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(745, 476);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);

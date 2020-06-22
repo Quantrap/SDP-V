@@ -52,32 +52,38 @@
             // 
             // buttonDel
             // 
+            this.buttonDel.BackColor = System.Drawing.Color.Green;
+            this.buttonDel.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonDel.Location = new System.Drawing.Point(691, 114);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(97, 45);
             this.buttonDel.TabIndex = 13;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonEdit
             // 
+            this.buttonEdit.BackColor = System.Drawing.Color.Green;
+            this.buttonEdit.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonEdit.Location = new System.Drawing.Point(691, 63);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(97, 45);
             this.buttonEdit.TabIndex = 12;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.Green;
+            this.buttonAdd.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonAdd.Location = new System.Drawing.Point(691, 12);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(97, 45);
             this.buttonAdd.TabIndex = 11;
             this.buttonAdd.Text = "Создать";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // listViewDrivers

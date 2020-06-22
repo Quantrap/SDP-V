@@ -84,22 +84,26 @@
             // 
             // buttonEnter
             // 
+            this.buttonEnter.BackColor = System.Drawing.Color.Green;
+            this.buttonEnter.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonEnter.Location = new System.Drawing.Point(58, 125);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(107, 54);
             this.buttonEnter.TabIndex = 12;
             this.buttonEnter.Text = "Войти";
-            this.buttonEnter.UseVisualStyleBackColor = true;
+            this.buttonEnter.UseVisualStyleBackColor = false;
             this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
             // 
             // buttonCancel
             // 
+            this.buttonCancel.BackColor = System.Drawing.Color.Green;
+            this.buttonCancel.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonCancel.Location = new System.Drawing.Point(251, 125);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(107, 54);
             this.buttonCancel.TabIndex = 13;
             this.buttonCancel.Text = "Отмена";
-            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.UseVisualStyleBackColor = false;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // FormAuthorization

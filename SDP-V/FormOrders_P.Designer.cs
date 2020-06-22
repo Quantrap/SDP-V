@@ -60,22 +60,26 @@
             // 
             // buttonDel
             // 
+            this.buttonDel.BackColor = System.Drawing.Color.Green;
+            this.buttonDel.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonDel.Location = new System.Drawing.Point(644, 63);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(97, 45);
             this.buttonDel.TabIndex = 13;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.Green;
+            this.buttonAdd.ForeColor = System.Drawing.Color.LawnGreen;
             this.buttonAdd.Location = new System.Drawing.Point(644, 12);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(97, 45);
             this.buttonAdd.TabIndex = 11;
             this.buttonAdd.Text = "Создать";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // listViewOrdersP
