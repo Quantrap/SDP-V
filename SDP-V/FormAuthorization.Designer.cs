@@ -120,7 +120,7 @@
             this.Controls.Add(this.textBoxPassword);
             this.Name = "FormAuthorization";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormAuthorization";
+            this.Text = "Авторизация";
             this.ResumeLayout(false);
             this.PerformLayout();
 
