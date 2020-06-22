@@ -227,5 +227,15 @@ namespace SDP_V
             textBoxDate.Text = null;
             textBoxDate.ForeColor = Color.Black;
         }
+
+        private void comboBoxUL_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBoxFL.SelectedItem = null;
+        }
+
+        private void comboBoxFL_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBoxUL.SelectedItem = null;
+        }
     }
 }

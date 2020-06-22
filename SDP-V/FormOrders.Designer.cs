@@ -188,6 +188,7 @@
             this.comboBoxFL.Name = "comboBoxFL";
             this.comboBoxFL.Size = new System.Drawing.Size(121, 21);
             this.comboBoxFL.TabIndex = 10;
+            this.comboBoxFL.SelectedIndexChanged += new System.EventHandler(this.comboBoxFL_SelectedIndexChanged);
             // 
             // labelDate
             // 
@@ -240,6 +241,7 @@
             this.comboBoxUL.Name = "comboBoxUL";
             this.comboBoxUL.Size = new System.Drawing.Size(121, 21);
             this.comboBoxUL.TabIndex = 24;
+            this.comboBoxUL.SelectedIndexChanged += new System.EventHandler(this.comboBoxUL_SelectedIndexChanged);
             // 
             // FormOrders
             // 
